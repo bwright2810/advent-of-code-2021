@@ -16,6 +16,7 @@ def main():
     start = time.perf_counter()
     new_s = ''
     pair = ['', '']
+    # print(f'string length: {len(temp)}')
     for i in range(len(temp)):
       c = temp[i]
       if pair[1] == '':
